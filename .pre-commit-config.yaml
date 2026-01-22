@@ -6,3 +6,5 @@ repos:
       entry: uv sync
       language: system
       stages: [post-merge, post-checkout]
+      always_run: true
+      pass_filenames: false
