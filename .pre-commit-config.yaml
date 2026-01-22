@@ -1,0 +1,8 @@
+repos:
+- repo: local
+  hooks:
+    - id: uv-sync
+      name: uv-sync
+      entry: uv sync
+      language: system
+      stages: [post-merge, post-checkout]
